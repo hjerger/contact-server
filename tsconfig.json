@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+     "target": "es2016",
+    "lib": [],
+      "module": "commonjs",
+    "rootDir": "./",
+     "resolveJsonModule": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+     "esModuleInterop": true,
+     "forceConsistentCasingInFileNames": true,
+      "strict": true,
+     "noImplicitAny": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src",
+    "package.json"
+  ],
+  "exclude": [
+    "src/**/*.test.ts"
+  ]
+}
